@@ -1,3 +1,5 @@
+**Update: This is exactly same as the AdmitHub/meteor-buildpack-horse but without the mongolab addon. We shall keep this repo updated with upstream changes. Please submit a pull request if it's not up to date with AdmitHub/meteor-buildpack-horse**
+
 # Meteor Buildpack Horse
 
 A heroku buildpack for Meteor v0.9.3+ (including 1.0 and up), using meteor's
