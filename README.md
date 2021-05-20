@@ -1,3 +1,5 @@
+**Update: This is exactly same as the AdmitHub/meteor-buildpack-horse but without the mongolab addon.**
+
 # Meteor Buildpack Horse
 
 [![Horse](https://i.imgur.com/YhIL9zM.jpg)](https://commons.wikimedia.org/wiki/File:Draw-Costa_Rican-2smallest.jpg)
