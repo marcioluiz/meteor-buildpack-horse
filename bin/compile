@@ -190,7 +190,7 @@ fi
 # bundling, or it will recurse, trying to bundle up its own bundling.
 
 echo "-----> Building Meteor app with ROOT_URL: $ROOT_URL"
-BUNDLE_DEST=`mktemp -d -p "$BUILDPACK_DIR" "/build-XXXX"`
+BUNDLE_DEST=`mktemp -d -t "$BUILDPACK_DIR/build-XXXX"`
 
 # The actual invocation of `meteor build`!
 METEOR build $BUILD_OPTIONS --server $ROOT_URL $SERVER_ONLY_FLAG --directory $BUNDLE_DEST
