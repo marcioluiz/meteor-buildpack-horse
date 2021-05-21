@@ -187,6 +187,7 @@ fi
 # Allow non-zero return since we know it will fail
 set +e
 METEOR add rocketchat:i18n
+METEOR add rocketchat:livechat
 set -e
 
 # Related to https://github.com/meteor/meteor/issues/2796 and
